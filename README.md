@@ -1,327 +1,235 @@
 # Azure Cloud Security Portfolio
 
-> **Cloud Security Engineering • DevSecOps • Threat Detection**
+> **Hands-on Cloud Security Engineering | DevSecOps Automation | Threat Detection**
 
-Hi! I'm **Jacob Madhanzi**, an early-career security professional focused on Azure Cloud Security, DevSecOps automation, and cloud threat detection engineering.
+## 👋 About Me
 
-This portfolio showcases real, hands-on work across:
+I'm **Jacob Madhanzi**, an early-career security professional with specialized expertise in **Azure Cloud Security**, **DevSecOps automation**, and **cloud threat detection engineering**. This portfolio showcases real, production-ready work across enterprise security domains.
 
-✅ Cloud security engineering  
-✅ DevSecOps pipelines (secure CI/CD)  
-✅ Cloud threat detection & KQL analytics  
-✅ Infrastructure-as-Code (Bicep/Terraform)  
-✅ Security automation & governance  
+### 🎯 What You'll Find Here
 
-**All projects are designed to run inside a student Azure subscription, making them reproducible and accessible.**
+✅ **End-to-end threat detection engineering** (Sentinel SIEM/SOAR, KQL, 20+ detections)  
+✅ **Secure infrastructure-as-code** (Bicep/Terraform, zero-trust architecture)  
+✅ **DevSecOps pipelines** (GitHub Actions, automated security scanning, OIDC)  
+✅ **Multi-cloud security** (AWS CloudTrail + Azure correlation)  
+✅ **Security automation** (Logic Apps SOAR playbooks, incident response)  
+✅ **Cloud governance** (Policy-as-Code, compliance, centralized logging)  
 
----
-
-## 📋 Quick Links
-- [Learning Objectives](#-learning-objectives)
-- [Tech Stack](#-tech-stack)
-- [Highlights](#-highlights)
-- [Project A – Cloud Threat Detection Lab](#-project-a--cloud-threat-detection-lab)
-- [Project B – Azure Landing Zone Lite](#-project-b--azure-landing-zone-lite)
-- [Project C – DevSecOps Pipelines](#-project-c--devsecops-pipelines)
-- [Architecture Docs](#-additional-resources)
+**All projects are fully reproducible in a student Azure subscription.**
 
 ---
 
-## 🎯 Learning Objectives
+## 🎓 Certification & Skills Alignment
 
-This portfolio demonstrates proficiency in:
-
-| Certification | Skills Demonstrated |
-|---|---|
-| **AZ-500** (Azure Security Engineer) | Identity & access management, platform protection, security operations, data & application security |
-| **SC-100** (Cybersecurity Architect) | Zero Trust architecture, security operations strategy, infrastructure security, compliance |
-| **SC-200** (Security Operations Analyst) | Threat detection with KQL, incident response, threat hunting, Sentinel SIEM/SOAR |
-
-### Additional Competencies
-- Infrastructure-as-Code (Bicep/Terraform)
-- CI/CD security automation
-- MITRE ATT&CK framework
-- Windows & Linux security hardening
-- Cloud-native security tooling
-
----
-
-## 🛠 Tech Stack
-
-| Area | Technologies |
-|---|---|
-| **☁️ Cloud** | Azure, Entra ID, Defender for Cloud, Log Analytics, Sentinel |
-| **🏗 IaC** | Bicep, Terraform, ARM Templates |
-| **🔄 DevSecOps** | GitHub Actions, OIDC, CodeQL, tfsec, Checkov, Trivy |
-| **🖥 Systems** | Windows Server, Ubuntu Linux, Sysmon, Azure Monitor Agent |
-| **🔍 Detection** | KQL, MITRE ATT&CK, Sigma Rules |
-| **🔐 Security** | NSGs, Azure Bastion, Key Vault, NAT Gateway, Zero Trust |
-| **📊 Monitoring** | Log Analytics Workspaces, Data Collection Rules, Flow Logs |
-
----
-
-## ⭐ Highlights
-
-✅ Built a full cloud threat detection lab using Sysmon + Log Analytics  
-✅ Developed 20+ KQL detections mapped to MITRE ATT&CK  
-✅ Integrated AWS CloudTrail with Microsoft Sentinel for multi-cloud threat detection  
-✅ Built cross-cloud correlation joining AWS and Azure data on source IP  
-✅ Automated Slack incident notifications via Logic App SOAR playbook  
-✅ Created secure IaC deployments using Bicep & Terraform  
-✅ Implemented DevSecOps pipelines with CodeQL, tfsec & Checkov  
-✅ Automated Azure deployments using GitHub Actions + OIDC (no secrets!)  
-✅ Architected a "Landing Zone Lite" blueprint for student subscriptions  
-✅ Established centralized logging with AMA and Data Collection Rules  
-✅ Deployed Azure Bastion for secure, zero-trust administrative access  
-
----
-
-## 📁 Project A — Cloud Threat Detection Lab
-
-**📂 Location**: `/projects/project-a-cloud-detection-lab`  
-**📊 Status**: 🟩 Complete
-
-A comprehensive cloud detection engineering environment featuring:
-
-- **Defender for Endpoint**: 3 onboarded devices with 5 custom detection rules
-- **Microsoft Sentinel**: 11+ analytics rules with MITRE ATT&CK mapping
-- **SOAR Automation**: 6 Logic Apps playbooks for incident response
-- **Threat Hunting**: 5 hypothesis-driven KQL hunting queries
-- **Workbooks**: 4 operational dashboards for analysis and investigation
-- **Azure Log Analytics**: Centralized log aggregation and analysis
-- **Sysmon/AMA Integration**: Advanced telemetry collection
-
-### 🎯 Security Operations Capabilities
-
-**Detection & Response:**
-- 11+ Sentinel analytics rules (credential access, privilege escalation, UEBA, AWS threat detection, cross-cloud correlation)
-- 5 Defender for Endpoint custom detections (T1059, T1003, T1021, T1547, T1087)
-- ASIM-based multi-source brute force detection
-- Behavioral analytics with UEBA
-
-**Automation & SOAR:**
-- Automated incident containment (session revocation, account disable)
-- High-severity email notifications
-- Content Hub solution deployment
-
-**Threat Hunting:**
-- Off-hours administrative activity detection
-- Rapid privilege escalation chain analysis
-- Mass user modification detection
-- Suspicious IP pattern identification
-- Failed login spike analysis
-
-### 📖 Documentation
-
-| Document | Description | Status |
+### Certifications
+| Exam | Focus | Demonstrated Skills |
 |---|---|---|
-| Lab 01 — RDP Brute Force Detection | T1110 credential access detection and investigation | ✅ Complete |
-| Lab 02 — Suspicious Process Creation | T1059.001 PowerShell execution analysis | ✅ Complete |
-| Lab 03 — AWS-Sentinel Multi-Cloud Detection | AWS CloudTrail integration, 4 cross-cloud detection rules | ✅ Complete |
-| Defender for Endpoint | 3 devices, 5 custom detection rules | ✅ Complete |
-| Automation Playbooks | 6 Logic Apps SOAR workflows | ✅ Complete |
-| Playbook Case Studies | 3 detailed automation implementations | ✅ Complete |
-| Analytics Rules | 11+ Sentinel detection rules | ✅ Complete |
-| Workbooks | 4 investigation and hunting dashboards | ✅ Complete |
-| Threat Hunting Queries | 5 hypothesis-driven hunts | ✅ Complete |
+| **AZ-500** | Azure Security Engineer | Identity & access, platform protection, security ops, data security |
+| **SC-100** | Cybersecurity Architect | Zero Trust, security strategy, infrastructure, compliance |
+| **SC-200** | Security Operations Analyst | KQL, threat detection, incident response, threat hunting |
 
-### 🛠 Key Technologies
-
-**Detection & Monitoring:**
-- Microsoft Sentinel (SIEM/SOAR)
-- AWS CloudTrail (via S3/SQS integration)
-- Cross-cloud threat correlation (AWS + Azure)
-- Defender for Cloud CSPM (multi-cloud posture)
-- Defender for Endpoint (EDR)
-- Windows Security Events (4624, 4625, 4688)
-- Sysmon (Event IDs 1, 3, 7, 11)
-- Azure Monitor Agent (AMA)
-- UEBA (User & Entity Behavior Analytics)
-
-**Automation & Response:**
-- Logic Apps (SOAR workflows)
-- Content Hub solutions
-- Managed identities (secure authentication)
-
-**Analysis & Hunting:**
-- KQL (Kusto Query Language)
-- Sentinel Workbooks
-- ASIM normalization
-- MITRE ATT&CK framework
-
-### 📈 Skills Demonstrated
-
-**Detection Engineering:**
-- Cloud threat detection with Sentinel and Defender for Endpoint
-- KQL query development and optimization
-- Multi-cloud SIEM integration (AWS CloudTrail + Sentinel)
-- Cross-cloud threat correlation using KQL joins
-- CloudTrail JSON parsing and nested field extraction
-- MITRE ATT&CK framework mapping
-- Multi-source correlation with ASIM
-- Behavioral analytics (UEBA) implementation
-
-**Security Automation (SOAR):**
-- Logic Apps workflow design and implementation
-- Automated incident containment
-- Content Hub solution deployment
-- Managed identity configuration
-
-**Threat Hunting:**
-- Hypothesis-driven hunting methodology
-- Risk scoring algorithm development
-- Workbook development for operational efficiency
-- Hunt-to-rule promotion workflows
-
-**Investigation & Analysis:**
-- Incident response and triage
-- Attack simulation and validation
-- Sysmon configuration and log analysis
-- Cross-environment correlation
-
-📖 [View Project A Details](./projects/project-a-cloud-detection-lab/)
+### Key Competencies
+`Azure Security` • `Microsoft Sentinel` • `KQL (Kusto Query Language)` • `Bicep/Terraform` • `GitHub Actions` • `Threat Detection` • `MITRE ATT&CK` • `Security Automation` • `Zero Trust Architecture` • `Cloud Threat Hunting` • `Incident Response` • `SIEM/SOAR` • `DevSecOps` • `Cloud Governance`
 
 ---
 
-## 📁 Project B — Azure Landing Zone Lite (Infrastructure-as-Code)
+## 🛠️ Technology Stack
 
-**📂 Location**: `/projects/project-b-landing-zone-lite`  
-**📊 Status**: 🟩 Complete
-
-A minimal, secure Azure Landing Zone designed for restricted tenants and student subscriptions.
-
-### 🏗 Core Components
-
-- **Network Segmentation**: VNet with isolated subnets (App, Mgmt, Logging)
-- **Secure Access**: Azure Bastion for RDP/SSH (no public IPs on VMs)
-- **Controlled Egress**: NAT Gateway for predictable outbound traffic
-- **Identity Security**: Key Vault for secrets management
-- **Monitoring**: Centralized logging with Log Analytics Workspace
-- **Security**: Network Security Groups with least-privilege rules
-- **Diagnostics**: Flow logs and Activity logs enabled
-
-### 📚 Documentation
-
-| Document | Description |
+| Category | Technologies |
 |---|---|
-| Landing Zone Overview | Architecture overview and design principles |
-| Networking Deep Dive | Detailed networking configuration |
-| Troubleshooting Guide | Common issues and solutions |
-| Hybrid AD Setup | On-premises DC with Entra Connect |
-| Architecture Diagram | Visual architecture documentation |
-
-### 🔧 IaC Available In
-- `infra/bicep/` — 🟩 Core networking module completed
-- `infra/terraform/` — Terraform alternative (planned)
-
-### 🔐 Security Features
-
-✅ Zero public IPs on VMs  
-✅ Azure Bastion for secure administrative access  
-✅ Network Security Groups with default-deny rules  
-✅ NAT Gateway for controlled outbound connectivity  
-✅ Flow logs enabled for network visibility  
-✅ Diagnostic settings on all key resources  
-✅ Centralized logging to Log Analytics  
-✅ Microsoft Sentinel for threat detection  
-
-### 📈 Skills Demonstrated
-
-- Azure network design and segmentation
-- Zero Trust security model implementation
-- Infrastructure-as-Code development
-- Secure VM deployment patterns
-- Cloud architecture diagramming
-- Azure Bastion configuration
-- NAT Gateway implementation
-- Log Analytics integration
-
-📖 [View Project B Details](./projects/project-b-landing-zone-lite/)
+| **☁️ Cloud Platform** | Azure, Entra ID, Defender for Cloud, Log Analytics, Sentinel, Defender for Endpoint |
+| **🏗️ Infrastructure-as-Code** | Bicep, Terraform, ARM Templates, Azure Policy |
+| **🔄 DevSecOps & CI/CD** | GitHub Actions, OIDC (federated identity), CodeQL, tfsec, Checkov, Trivy |
+| **🖥️ Systems & Endpoints** | Windows Server, Ubuntu Linux, Sysmon, Azure Monitor Agent, Azure Bastion |
+| **🔍 Detection & Hunting** | KQL, MITRE ATT&CK Framework, Sigma Rules, ASIM Normalization |
+| **🔐 Security & Access** | NSGs, Key Vault, Azure Bastion, NAT Gateway, Managed Identities, Zero Trust |
+| **📊 Monitoring & Logging** | Log Analytics Workspaces, Data Collection Rules, Flow Logs, Diagnostic Settings |
+| **⚙️ Automation** | Logic Apps, Azure Functions, Managed Identities, API Integrations |
 
 ---
 
-## 📁 Project C — DevSecOps Pipelines
+## ⭐ Key Achievements
 
-**📂 Location**: `/projects/project-c-devsecops-pipelines`  
-**📊 Status**: 🟨 Planned
+✅ **Built a full-stack threat detection lab** with Sysmon telemetry, centralized logging, and advanced analytics  
+✅ **Developed 20+ KQL detection rules** mapped to MITRE ATT&CK framework (T1110, T1059, T1003, T1021, T1547, T1087, etc.)  
+✅ **Architected multi-cloud threat detection** by integrating AWS CloudTrail with Microsoft Sentinel  
+✅ **Engineered cross-cloud correlation** joining AWS and Azure data on source IP and user activity  
+✅ **Automated security incident response** via Logic Apps SOAR playbooks with Slack notifications  
+✅ **Implemented secure IaC deployments** using Bicep & Terraform with zero exposed secrets  
+✅ **Built DevSecOps pipelines** with CodeQL, tfsec, Checkov, and container scanning  
+✅ **Deployed zero-trust infrastructure** using GitHub Actions + OIDC (federated credentials, no PATs)  
+✅ **Designed Landing Zone Lite** blueprint for restricted tenants and student subscriptions  
+✅ **Established centralized logging** with Azure Monitor Agent and Data Collection Rules at scale  
+✅ **Deployed Azure Bastion** for secure, passwordless, zero-trust administrative access  
 
-Secure CI/CD pipelines for automated infrastructure deployment and security validation.
+---
 
-### 🎯 Planned Features
+## 📋 Projects Overview
+
+### 📁 [Project A — Cloud Threat Detection Lab](./projects/project-a-cloud-detection-lab)
+
+**Status**: 🟩 **Complete**  
+**Focus**: Detection Engineering + Threat Hunting + Security Automation
+
+A production-grade cloud security operations center (SOC) built on Azure Sentinel and Defender for Endpoint.
+
+**What's Included:**
+- 🔍 **11+ Microsoft Sentinel analytics rules** with MITRE ATT&CK mapping
+- 🛡️ **5 Defender for Endpoint custom detections** (EDR rules)
+- 🔴 **UEBA & behavioral analytics** for insider threat detection
+- 🌍 **Cross-cloud threat correlation** (AWS CloudTrail + Azure logs)
+- ⚙️ **6 Logic Apps SOAR playbooks** for automated incident response
+- 📊 **4 operational Sentinel Workbooks** for investigation and hunting
+- 🎯 **5 hypothesis-driven KQL hunting queries** for threat hunting
+- 📝 **Lab walkthroughs** covering detection, investigation, and response
+
+**Key Detection Areas:**
+- Credential Access (T1110 - RDP brute force, T1110.001 - password spray)
+- Execution (T1059 - PowerShell execution, T1059.001 - suspicious scripts)
+- Privilege Escalation (T1547, T1003 - credential dumping)
+- Defense Evasion (T1562 - log clearing)
+- Multi-cloud (AWS CloudTrail anomalies, cross-cloud pivots)
+
+**Technologies**: Microsoft Sentinel, Defender for Endpoint, Log Analytics, Azure Monitor Agent, Sysmon, KQL, Logic Apps, UEBA, ASIM, MITRE ATT&CK
+
+[**View Full Project Details →**](./projects/project-a-cloud-detection-lab)
+
+---
+
+### 📁 [Project B — Azure Landing Zone Lite](./projects/project-b-landing-zone-lite)
+
+**Status**: 🟩 **Complete**  
+**Focus**: Infrastructure Security + Zero Trust Architecture
+
+A minimal, secure, and scalable Azure Landing Zone designed for restricted tenants, startups, and student subscriptions.
+
+**What's Included:**
+- 🏗️ **Hub-spoke network architecture** with isolated subnets
+- 🔒 **Zero public IPs** on VMs (all access via Azure Bastion)
+- 🌐 **Network segmentation** with NSGs and User-Defined Routes (UDRs)
+- 🚪 **Azure Bastion** for secure RDP/SSH without public endpoints
+- 🔄 **NAT Gateway** for controlled, predictable outbound traffic
+- 🔐 **Key Vault** integration for secrets management
+- 📊 **Centralized logging** with Log Analytics and Flow Logs
+- 🛡️ **Microsoft Sentinel** integrated for threat detection
+- 📋 **Azure Policy** for governance and compliance enforcement
+
+**Security Architecture:**
+- Zero Trust network segmentation
+- Principle of least privilege on all security groups
+- Centralized logging with retention and archival
+- Activity logging and diagnostic settings on all resources
+- Network flow visibility for threat hunting
+
+**Infrastructure-as-Code:**
+- 🟩 **Bicep templates** (completed) - modular, reusable components
+- 🟨 **Terraform modules** (planned) - multi-cloud capability
+
+**Technologies**: Bicep, Terraform, Azure VNet, NSGs, NAT Gateway, Azure Bastion, Log Analytics, Microsoft Sentinel, Azure Policy, Key Vault
+
+[**View Full Project Details →**](./projects/project-b-landing-zone-lite)
+
+---
+
+### 📁 [Project C — DevSecOps Pipelines](./projects/project-c-devsecops-pipelines)
+
+**Status**: 🟨 **In Development**  
+**Focus**: Secure CI/CD + Automated Security Scanning
+
+Enterprise-grade DevSecOps pipelines for automated infrastructure deployment with integrated security validation.
+
+**Planned Features:**
 
 **Security Scanning:**
-- IaC linting and validation
+- IaC validation and linting
 - IaC security scanning (Checkov, tfsec)
-- CodeQL static analysis
-- Secret scanning
+- Static application security testing (CodeQL)
+- Secret detection and rotation
 - Container image scanning (Trivy)
-- Dependency vulnerability scanning
+- Dependency vulnerability analysis
 
 **Deployment Automation:**
-- GitHub OIDC → Azure (no stored secrets)
+- GitHub Actions workflows
+- OIDC authentication to Azure (no stored secrets)
 - Automated Bicep/Terraform deployments
-- Environment promotion workflows
-- Rollback capabilities
+- Environment promotion (dev → staging → prod)
+- Automated rollback on policy violations
 
 **Governance & Compliance:**
-- Policy-as-Code enforcement
+- Azure Policy enforcement
 - Drift detection
-- Compliance reporting
-- Automated documentation
+- Compliance reporting and attestation
+- Automated security posture documentation
 
-### 🔮 Future Enhancements
-
+**Planned Integrations:**
 - Automated Sentinel rule deployment
 - Policy-as-Code with Azure Policy
 - Workbook automation
 - Logic App playbook deployment
-- Defender for Cloud integration
-- Compliance scanning and reporting
+- Defender for Cloud posture integration
 
-📖 [View Project C Details](./projects/project-c-devsecops-pipelines/)
+**Technologies**: GitHub Actions, Bicep, Terraform, CodeQL, tfsec, Checkov, Trivy, OWASP tools, Azure Policy
+
+[**View Full Project Details →**](./projects/project-c-devsecops-pipelines)
 
 ---
 
-## 📂 Repository Structure
+## 📚 Repository Structure
 
 ```
 azure-cloud-security-portfolio/
 │
-├── README.md
-├── GETTING_STARTED.md
-├── ARCHITECTURE.md
-├── LICENSE
+├── README.md                          # Main portfolio overview (you are here)
+├── GETTING_STARTED.md                 # Setup & deployment guide
+├── PORTFOLIO_INDEX.md                 # Quick reference index
+├── LICENSE                            # MIT License
 ├── .gitignore
 │
 ├── .github/
-│   └── copilot-instructions.md
+│   └── copilot-instructions.md        # GitHub Copilot prompt
 │
 ├── docs/
 │   ├── architecture/
 │   │   ├── cloud-detection-lab-architecture.md
-│   │   └── landing-zone-lite-architecture.md
-│   ├── COST_OPTIMIZATION.md
-│   ├── KQL_REFERENCE.md
-│   └── TROUBLESHOOTING.md
+│   │   ├── landing-zone-lite-architecture.md
+│   │   └── diagrams/                  # Mermaid/visio diagrams
+│   ├── COST_OPTIMIZATION.md           # Budget breakdown & tips
+│   ├── KQL_REFERENCE.md               # KQL patterns & examples
+│   └── TROUBLESHOOTING.md             # Common issues & fixes
 │
 ├── infra/
 │   ├── bicep/
-│   │   └── landing-zone-lite/
-│   │       └── main.bicep
+│   │   ├── landing-zone-lite/
+│   │   │   ├── main.bicep
+│   │   │   ├── networking.bicep
+│   │   │   ├── security.bicep
+│   │   │   └── monitoring.bicep
+│   │   └── modules/                   # Reusable modules
 │   └── terraform/
-│       └── .gitkeep
+│       └── landing-zone-lite/         # Terraform equivalents
 │
 ├── projects/
+│   │
 │   ├── project-a-cloud-detection-lab/
-│   │   ├── README.md
+│   │   ├── README.md                  # Project overview
+│   │   ├── QUICKSTART.md              # 15-minute setup
 │   │   ├── labs/
 │   │   │   ├── lab-01-bruteforce-detection.md
 │   │   │   ├── lab-02-process-creation.md
-│   │   │   └── lab-03-aws-sentinel-integration.md
+│   │   │   ├── lab-03-aws-sentinel-integration.md
+│   │   │   └── lab-04-threat-hunting.md
+│   │   ├── kql/
+│   │   │   ├── detections/            # Analytics rules
+│   │   │   ├── hunting-queries/       # Threat hunting queries
+│   │   │   └── workbooks/             # KQL for dashboards
 │   │   ├── playbooks/
 │   │   │   ├── playbook-01-revoke-user-signin.md
-│   │   │   ├── playbook-02-high-severity-notification.md
-│   │   │   └── playbook-03-content-hub-block-user.md
+│   │   │   ├── playbook-02-incident-notification.md
+│   │   │   └── playbook-03-containment.md
+│   │   ├── scripts/
+│   │   │   ├── deploy-sentinel.sh
+│   │   │   └── configure-dcr.sh
+│   │   ├── images/                    # Screenshots & diagrams
 │   │   ├── automation-playbooks.md
 │   │   ├── defender-for-endpoint.md
 │   │   ├── detections.md
@@ -329,188 +237,252 @@ azure-cloud-security-portfolio/
 │   │   └── workbooks.md
 │   │
 │   ├── project-b-landing-zone-lite/
-│   │   ├── README.md
-│   │   ├── hybrid-ad-setup.md
-│   │   ├── landing-zone-lite.md
-│   │   ├── networking.md
-│   │   └── troubleshooting.md
+│   │   ├── README.md                  # Project overview
+│   │   ├── QUICKSTART.md              # 30-minute setup
+│   │   ├── architecture.md            # Design principles
+│   │   ├── networking.md              # Network deep dive
+│   │   ├── hybrid-ad-setup.md         # Entra Connect guide
+│   │   ├── troubleshooting.md         # Common issues
+│   │   ├── images/                    # Architecture diagrams
+│   │   └── bicep/                     # IaC templates
 │   │
 │   └── project-c-devsecops-pipelines/
-│       ├── README.md
+│       ├── README.md                  # Project overview
+│       ├── ROADMAP.md                 # Development roadmap
 │       ├── .github/
 │       │   └── workflows/
-│       │       ├── iac-scan.yml
+│       │       ├── iac-validate.yml
+│       │       ├── security-scan.yml
 │       │       └── deploy.yml
-│       └── scripts/
+│       ├── scripts/
+│       │   ├── lint-bicep.sh
+│       │   ├── scan-iac.sh
+│       │   └── promote-environment.sh
+│       └── config/
+│           ├── checkov.yaml
+│           ├── tfsec.yaml
+│           └── codeql-config.yml
 │
 └── scripts/
-    ├── install-ama.ps1
-    └── install-sysmon.ps1
+    ├── install-ama.ps1                # Azure Monitor Agent setup
+    ├── install-sysmon.ps1             # Sysmon installation
+    └── azure-cost-monitoring.sh        # Cost tracking
 ```
 
 ---
 
-## 🚀 Getting Started
+## 🚀 Quick Start
 
 ### Prerequisites
 
-**Azure Requirements:**
-- Active Azure subscription (Student or Free Tier works)
-- Owner or Contributor role on subscription
-- Resource quota for VMs and networking
+**Azure:**
+- Active Azure subscription (Student/Free tier works)
+- Owner or Contributor IAM role
+- VM/networking resource quotas available
 
-**Local Development:**
-- Azure CLI installed
-- PowerShell 7+ (for scripts)
+**Local:**
+- `az` CLI ([install](https://learn.microsoft.com/en-us/cli/azure/install-azure-cli))
+- PowerShell 7+ ([install](https://github.com/PowerShell/PowerShell))
 - Git
-- Text editor (VS Code recommended)
+- VS Code (recommended)
 
-**Recommended Knowledge:**
-- Basic Azure concepts (VMs, networking, storage)
-- PowerShell fundamentals
-- KQL basics (for detection work)
+### Get Started in 3 Steps
 
-### Quick Start - Project A
-
+#### 1️⃣ Clone & Navigate
 ```bash
-# Clone the repository
 git clone https://github.com/jmadhanzi/azure-cloud-security-portfolio.git
 cd azure-cloud-security-portfolio
-
-# Log in to Azure
 az login
+```
 
-# Navigate to Project A
+#### 2️⃣ Choose a Project
+
+**Project A (Threat Detection)** — 2-3 hours
+```bash
 cd projects/project-a-cloud-detection-lab
-
-# Follow the project-specific README
-cat README.md
+cat QUICKSTART.md
 ```
 
-**Create base infrastructure:**
-1. Create a Resource Group: `rg-sc200-lab`
-2. Deploy Windows VM
-3. Create Log Analytics Workspace
-4. Configure Azure Monitor Agent
-
-**Install Sysmon (optional but recommended):**
-```powershell
-.\scripts\install-sysmon.ps1
+**Project B (Landing Zone)** — 3-4 hours
+```bash
+cd projects/project-b-landing-zone-lite
+cat QUICKSTART.md
 ```
 
-**Configure Data Collection Rules:**
-- Windows Security Events
-- Sysmon Events (if installed)
+**Project C (DevSecOps)** — Coming soon
+```bash
+cd projects/project-c-devsecops-pipelines
+cat ROADMAP.md
+```
 
-**Enable Microsoft Sentinel:**
-1. Navigate to Log Analytics Workspace
-2. Enable Sentinel
-3. Import analytics rules from detection pack
+#### 3️⃣ Follow the Guides
 
-**Run test scenarios:**
-- Follow lab guides in `projects/project-a-cloud-detection-lab/labs/`
-
-### Quick Start - Project B
-
-1. Review architecture in `landing-zone-lite.md`
-2. Review networking configuration in `networking.md`
-3. Deploy components (manual for now, IaC coming):
-   - VNet with subnets
-   - Azure Bastion
-   - NAT Gateway
-   - Management VMs
-   - Log Analytics Workspace
-4. Configure monitoring:
-   - Enable Flow Logs
-   - Configure Data Collection Rules
-   - Enable Sentinel
-5. Validate security posture:
-   - Test Bastion connectivity
-   - Verify NAT Gateway routing
-   - Confirm log ingestion
+Each project includes:
+- ✅ **QUICKSTART.md** — Get running in 15-30 minutes
+- 📖 **README.md** — Full technical documentation
+- 🎯 **Lab walkthroughs** — Step-by-step exercises
+- 📊 **Architecture diagrams** — Visual reference
+- 🛠️ **Deployment scripts** — Automated setup
 
 ---
 
-## 💰 Cost Management
+## 💰 Estimated Costs
 
-**Running these labs in Azure incurs costs. Here are estimated monthly costs for a student subscription:**
+**Running these labs will incur Azure charges. Here's the breakdown:**
 
-| Component | Estimated Cost (USD/month) | Notes |
-|---|---|---|
-| Windows VM (B2s) | ~$30 | Can be deallocated when not in use |
-| Linux VM (B2s) | ~$15 | Can be deallocated when not in use |
-| Log Analytics (10GB/month) | ~$2.50 | First 5GB free per workspace |
-| Sentinel | ~$0-5 | Based on ingestion volume |
-| Azure Bastion (Basic) | ~$135 | Major cost driver |
-| NAT Gateway | ~$35 | Includes data processing |
-| Storage (Logs) | ~$1 | Minimal with retention limits |
-| **Total (with Bastion)** | **~$220** | |
-| **Total (without Bastion)** | **~$85** | Using NSG + JIT instead |
+| Component | Est. Cost/Month | Optimization |
+|---|---:|---|
+| **Windows VM (B2s)** | ~$30 | Deallocate when not in use (-50%) |
+| **Linux VM (B2s)** | ~$15 | Deallocate when not in use (-50%) |
+| **Log Analytics** | ~$2.50 | First 5GB free per workspace |
+| **Sentinel** | ~$0–5 | Scales with ingestion volume |
+| **Azure Bastion (Basic)** | ~$135 | Use Developer SKU when available (~$5) |
+| **NAT Gateway** | ~$35 | Can be eliminated with NSG rules |
+| **Storage (Logs)** | ~$1 | Minimal with 30-day retention |
+| | | |
+| **Total (with Bastion)** | **~$220/mo** | |
+| **Total (optimized)** | **~$50/mo** | Deallocate VMs, use Dev Bastion |
 
 ### 💡 Cost Optimization Tips
 
-- **Deallocate VMs when not in use** (saves ~50% on compute)
-  ```bash
-  az vm deallocate --resource-group rg-sc200-lab --name vm-win-sc200-lab
-  ```
-- Use Azure Bastion Developer SKU when available ($5/month vs $135/month)
-- Limit Log Analytics retention to 30 days for lab work
-- Delete resources when lab is complete
-  ```bash
-  az group delete --name rg-sc200-lab --yes --no-wait
-  ```
-- Use Azure Cost Management alerts to monitor spending
-- Consider Azure for Students ($100 free credit)
+```bash
+# Deallocate VMs to save 50% on compute costs
+az vm deallocate --resource-group rg-sc200-lab --name vm-win
 
-📖 See [COST_OPTIMIZATION.md](./docs/COST_OPTIMIZATION.md) for detailed guidance.
+# Set Log Analytics retention to 30 days
+az monitor log-analytics workspace update \
+  --resource-group rg-sc200-lab \
+  --workspace-name law-sc200-lab \
+  --retention-time 30
 
----
+# Delete entire lab when done
+az group delete --name rg-sc200-lab --yes --no-wait
 
-## 📖 Additional Resources
+# Monitor spending with alerts
+az monitor metrics alert create \
+  --resource-group rg-sc200-lab \
+  --scopes /subscriptions/{sub-id}/resourcegroups/rg-sc200-lab \
+  --condition "avg BudgetThreshold > 100"
+```
 
-### Official Microsoft Documentation
-- [Microsoft Sentinel Documentation](https://learn.microsoft.com/en-us/azure/sentinel/)
-- [Azure Security Best Practices](https://learn.microsoft.com/en-us/azure/security/)
-- [KQL Quick Reference](https://learn.microsoft.com/en-us/azure/data-explorer/kusto/query/)
-
-### Learning Paths
-- [AZ-500: Azure Security Administrator](https://learn.microsoft.com/en-us/certifications/exams/az-500)
-- [SC-200: Security Operations Analyst](https://learn.microsoft.com/en-us/certifications/exams/sc-200)
-- [SC-100: Cybersecurity Architect](https://learn.microsoft.com/en-us/certifications/exams/sc-100)
-
-### Community Resources
-- [MITRE ATT&CK Framework](https://attack.mitre.org/)
-- [Sysmon Config (SwiftOnSecurity)](https://github.com/SwiftOnSecurity/sysmon-config)
-- [Sigma Rules](https://github.com/SigmaHQ/sigma)
-- [LOLBAS Project](https://lolbas-project.github.io/)
+📖 See [COST_OPTIMIZATION.md](./docs/COST_OPTIMIZATION.md) for detailed breakdown and Azure for Students benefits.
 
 ---
 
-## 📫 Contact
+## 📖 Learning Resources
+
+### Microsoft Learn Paths
+- **[AZ-500: Azure Security Engineer](https://learn.microsoft.com/en-us/certifications/exams/az-500)** — Platform protection, identity & access, data security
+- **[SC-200: Security Operations Analyst](https://learn.microsoft.com/en-us/certifications/exams/sc-200)** — Threat detection, incident response, hunting
+- **[SC-100: Cybersecurity Architect](https://learn.microsoft.com/en-us/certifications/exams/sc-100)** — Zero Trust, enterprise security strategy
+
+### Official Documentation
+- [Microsoft Sentinel](https://learn.microsoft.com/en-us/azure/sentinel/)
+- [Azure Security Benchmark](https://learn.microsoft.com/en-us/security/benchmark/azure/)
+- [Kusto Query Language (KQL)](https://learn.microsoft.com/en-us/azure/data-explorer/kusto/query/)
+- [Azure Bicep](https://learn.microsoft.com/en-us/azure/azure-resource-manager/bicep/overview)
+
+### Community & Frameworks
+- **[MITRE ATT&CK](https://attack.mitre.org/)** — Threat intelligence framework
+- **[Sysmon Config](https://github.com/SwiftOnSecurity/sysmon-config)** — SwiftOnSecurity baseline
+- **[Sigma Rules](https://github.com/SigmaHQ/sigma)** — Detection rule repository
+- **[LOLBAS](https://lolbas-project.github.io/)** — Living off the Land Binaries
+
+### Additional Reading
+- [Zero Trust Adoption Guide](https://learn.microsoft.com/en-us/security/zero-trust/)
+- [Azure Well-Architected Review](https://learn.microsoft.com/en-us/assessments/azure-architecture-review/)
+- [Cloud Security Alliance Guidance](https://cloudsecurityalliance.org/)
+
+---
+
+## 🎓 What You'll Learn
+
+By working through these projects, you'll develop skills in:
+
+### Detection Engineering
+- Cloud threat detection architectures (SIEM/SOAR)
+- KQL query optimization and advanced analytics
+- Multi-cloud threat correlation (AWS + Azure)
+- MITRE ATT&CK framework mapping
+- Behavioral analytics and anomaly detection
+- Threat hunting methodologies
+
+### Cloud Security
+- Azure security services configuration
+- Identity and Access Management (Entra ID)
+- Network segmentation and Zero Trust
+- Cloud compliance and governance
+- Azure Policy enforcement
+- Security baseline implementation
+
+### Infrastructure-as-Code
+- Bicep template development
+- Terraform module design
+- Infrastructure versioning and CI/CD
+- Policy-as-Code (Azure Policy)
+- Drift detection and remediation
+- Disaster recovery automation
+
+### DevSecOps
+- Secure CI/CD pipeline design
+- GitHub Actions workflow creation
+- OIDC federated credentials (no PATs)
+- Infrastructure security scanning
+- Secret management and rotation
+- Compliance automation
+
+### Security Operations
+- Incident response procedures
+- SOAR automation (Logic Apps)
+- Alert tuning and optimization
+- Security metrics and KPIs
+- Post-incident analysis
+- Playbook development
+
+---
+
+## 📫 Contact & Connect
 
 **Jacob Madhanzi**
-- GitHub: [@jmadhanzi](https://github.com/jmadhanzi)
-- LinkedIn: [jacob-madhanzi](https://linkedin.com/in/jacob-madhanzi)
-- Email: [your-email@example.com]
+
+- 🔗 **GitHub**: [@jmadhanzi](https://github.com/jmadhanzi)
+- 💼 **LinkedIn**: [jacob-madhanzi](https://www.linkedin.com/in/jacob-madhanzi/)
+- 📧 **Email**: your-email@example.com
 
 ---
 
-## 📜 License
+## 📜 License & Attribution
 
-This portfolio is open-source under the **MIT License**. See [LICENSE](./LICENSE) for details.
+This portfolio is licensed under the **MIT License**. See [LICENSE](./LICENSE) for details.
 
----
+### Acknowledgments
 
-## 🙏 Acknowledgments
-
-- Microsoft Learn for comprehensive Azure documentation
-- MITRE ATT&CK team for threat framework
-- SwiftOnSecurity for Sysmon configuration baseline
-- Azure security community for shared knowledge
+- **Microsoft Learn** — Comprehensive Azure documentation and learning paths
+- **MITRE ATT&CK** — Threat intelligence framework and tactic/technique taxonomy
+- **SwiftOnSecurity** — Sysmon configuration baseline
+- **Azure Security Community** — Shared knowledge and best practices
 
 ---
 
-⭐ **If you find this portfolio helpful, please consider starring the repository!**
+## ⭐ Support This Portfolio
+
+If this portfolio helped you learn or prepare for your security career, please consider:
+- ⭐ Starring this repository
+- 🔗 Sharing it with others
+- 💬 Providing feedback or suggestions
+- 🤝 Contributing improvements
+
+---
 
 **Last Updated**: October 2026  
 **Status**: Active Development 🚀
+
+---
+
+### 🔐 Security Notice
+
+This portfolio contains example detection rules, configurations, and techniques for **educational purposes only**. Always:
+- Validate rules in your environment before production use
+- Follow your organization's security policies
+- Report actual security incidents to your SOC
+- Keep Azure credentials and API keys secure (never commit to git)
